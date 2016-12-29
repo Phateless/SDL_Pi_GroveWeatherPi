@@ -1368,7 +1368,7 @@ def sampleAndDisplay():
 
 def writeWeewxInputFile():
     """Write weewx input file."""
-    f = open("/home/pi/Station/wxdata", "w")
+    f = open("/home/pi/SDL_Pi_GroveWeatherPi/wxdata", "w")
     # f.write("barometer = \t{0:0.2f} \n" % (bmp180Pressure))
     # f.write("pressure = %0.2f \n" % (bmp180Pressure))
     # f.write("altimeter = %0.2f \n" % (bmp180Altitude))

@@ -1720,7 +1720,7 @@ while True:
 	if ((secondCount % 10) == 0):
 		# print every 10 seconds
 		sampleAndDisplay()
-        writeWeewxInputFile()		
+		writeWeewxInputFile()		
 		patTheDog()      # reset the WatchDog Timer
 		blinkSunAirLED2X(2)
 
